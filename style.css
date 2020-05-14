@@ -1,0 +1,32 @@
+/* soft reset do css*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url('https://www.alphansotech.com/wp-content/uploads/2018/08/background-img.jpg');
+  background-size: 100vw 100vh ;
+  backdrop-filter: blur(10px);
+  font-family: Geogia;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+.site-title,
+.site-subtitle{
+  text-align: center;
+}
+.menu{
+  background-color: white;
+}
+.menu ul{
+  display: flex;
+  justify-content: space-around;
+}
+.menu li{
+  list-style: none;
+}
